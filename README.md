@@ -12,7 +12,7 @@ git clone https://github.com/samuelvenable/Statically-Linked-Catalog-SDL3-Demo \
 
 This will work cross-platform, even on platforms where statically linking is more difficult such as Linux or BSD.
 
-`cl-bootstrap.cmake` needs to be included in your project but can be ignored.
+`cl-bootstrap.cmake` needs to be included in your project but can be ignored and does not need editing.
 
 This needs to be added before `add_executable()` or `add_library()` in your `CMakeLists.txt`:
 
