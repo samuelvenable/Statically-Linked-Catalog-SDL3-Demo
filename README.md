@@ -28,5 +28,5 @@ set(CATALOG_REQ_TYPE PREFER_STATIC)
 ...and then after `add_executable()` or `add_library()` you need:
 
 ```cmake
-cl_add_dep(demo SDL3)
+cl_add_dep(MyProject SDL3)
 ```
