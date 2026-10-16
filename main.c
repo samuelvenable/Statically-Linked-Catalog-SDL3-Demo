@@ -15,7 +15,6 @@ int main(int argc, char *argv[]) {
   }
 
   SDL_SetWindowPosition(window, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
-
   SDL_Renderer *renderer = SDL_CreateRenderer(window, NULL);
   if (!renderer) {
     printf("Renderer could not be created! SDL_Error: %s\n", SDL_GetError());
