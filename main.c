@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
   int quit = 0;
   while (!quit) {
     while (SDL_PollEvent(&e) != 0) {
-      if (e.type == SDL_QUIT) {
+      if (e.type == SDL_EVENT_QUIT) {
         quit = 1;
       }
     }
