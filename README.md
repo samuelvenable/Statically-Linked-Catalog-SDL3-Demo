@@ -17,7 +17,7 @@ This will work cross-platform, even on platforms where statically linking is mor
 This needs to be added before `add_executable()` or `add_library()` in your `CMakeLists.txt`:
 
 ```cmake
-include(${CMAKE_CURRENT_SOURCE_DIR}/cl-bootstrap.cmake)
+include("${CMAKE_CURRENT_SOURCE_DIR}/cl-bootstrap.cmake")
 cl_repo()
 
 set(CATALOG_REQ_TYPE PREFER_STATIC)
