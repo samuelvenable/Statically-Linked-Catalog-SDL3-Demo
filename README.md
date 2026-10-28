@@ -44,3 +44,5 @@ set(SDL_X11_XINPUT OFF)
 set(SDL_X11_XFIXES OFF)
 set(SDL_X11_XTEST OFF)
 ```
+
+For a more complex and practical use-case example, please see my [SDL3-ImGui-FileDialogs](https://github.com/samuelvenable/SDL3-ImGui-FileDialogs) repository.
