@@ -5,8 +5,8 @@ Very special thanks to [Grady Link](https://github.com/gradylink) for writing th
 Test the demo:
 
 ```sh
-git clone https://github.com/samuelvenable/Statically-Linked-Catalog-SDL3-Demo ~/Statically-Linked-Catalog-SDL3-Demo
-cd ~/Statically-Linked-Catalog-SDL3-Demo
+git clone https://github.com/samuelvenable/Statically-Linked-Catalog-SDL3-Demo
+cd Statically-Linked-Catalog-SDL3-Demo
 cmake .
 cmake --build .
 cd build
