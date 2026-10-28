@@ -45,4 +45,5 @@ set(SDL_X11_XFIXES OFF)
 set(SDL_X11_XTEST OFF)
 ```
 
-For a more complex and practical use-case example, please see my [SDL3-ImGui-FileDialogs](https://github.com/samuelvenable/SDL3-ImGui-FileDialogs) repository.
+- For the SDL2 equivalent of this repository, please see my [Statically-Linked-Catalog-SDL2-Demo](https://github.com/samuelvenable/Statically-Linked-Catalog-SDL2-Demo) repository.
+- For a more complex and practical use-case example, please see my [SDL3-ImGui-FileDialogs](https://github.com/samuelvenable/SDL3-ImGui-FileDialogs) repository.
