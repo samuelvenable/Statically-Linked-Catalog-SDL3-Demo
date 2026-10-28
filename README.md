@@ -7,9 +7,8 @@ Test the demo:
 ```sh
 git clone https://github.com/samuelvenable/Statically-Linked-Catalog-SDL3-Demo
 cd Statically-Linked-Catalog-SDL3-Demo
-cmake build
-cmake --build build
-cd build
+cmake .
+cmake --build .
 ./demo
 ```
 
