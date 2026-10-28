@@ -5,9 +5,12 @@ Very special thanks to [Grady Link](https://github.com/gradylink) for writing th
 Test the demo:
 
 ```sh
-git clone https://github.com/samuelvenable/Statically-Linked-Catalog-SDL3-Demo \
-~/Statically-Linked-Catalog-SDL3-Demo && cmake --build ~/Statically-Linked-Catalog-SDL3-Demo/build \
-&& ~/Statically-Linked-Catalog-SDL3-Demo/build/demo
+git clone https://github.com/samuelvenable/Statically-Linked-Catalog-SDL3-Demo ~/Statically-Linked-Catalog-SDL3-Demo
+cd ~/Statically-Linked-Catalog-SDL3-Demo
+cmake .
+cmake --build .
+cd build
+./demo
 ```
 
 This will work cross-platform, even on platforms where statically linking is more difficult such as Linux or BSD.
