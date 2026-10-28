@@ -7,7 +7,7 @@ Test the demo:
 ```sh
 git clone https://github.com/samuelvenable/Statically-Linked-Catalog-SDL3-Demo \
 ~/Statically-Linked-Catalog-SDL3-Demo && cd ~/Statically-Linked-Catalog-SDL3-Demo \
-&& mkdir build && cd build && cmake .. && make && ./demo
+&& cmake -S . -B build && build/demo
 ```
 
 This will work cross-platform, even on platforms where statically linking is more difficult such as Linux or BSD.
