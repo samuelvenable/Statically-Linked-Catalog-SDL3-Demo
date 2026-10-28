@@ -31,7 +31,7 @@ set(CATALOG_REQ_TYPE PREFER_STATIC)
 cl_add_dep(MyProject SDL3)
 ```
 
-For all platforms where SDL3's X11 code is compiled, you will need this at the top of your `CMakeLists.txt`:
+For ***all*** platforms where SDL3's X11 code is compiled, you will need this at the top of your `CMakeLists.txt`:
 
 ```cmake
 set(SDL_X11_XSCRNSAVER OFF)
