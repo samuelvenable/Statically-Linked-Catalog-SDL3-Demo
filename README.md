@@ -37,7 +37,7 @@ For ***all*** platforms where SDL3's X11 code is compiled, you will need this at
 set(SDL_X11_XSCRNSAVER OFF)
 ```
 
-For ***some*** platforms where SDL3's X11 code is compiled, (for example: armhf-based Linux), you also need:
+For ***some*** platforms where SDL3's X11 code is compiled, (for example: `armhf`-based Linux), you also need:
 
 ```cmake
 set(SDL_X11_XINPUT OFF)
