@@ -22,6 +22,7 @@ This needs to be added before `add_executable()` or `add_library()` in your `CMa
 include("${CMAKE_CURRENT_SOURCE_DIR}/cl-bootstrap.cmake")
 cl_repo()
 
+set(CATALOG_FORCE_source_SDL3 TRUE)
 set(CATALOG_REQ_TYPE PREFER_STATIC)
 ```
 
