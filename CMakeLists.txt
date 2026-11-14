@@ -6,6 +6,7 @@ set(SDL_X11_XINPUT OFF)
 set(SDL_X11_XFIXES OFF)
 set(SDL_X11_XTEST OFF)
 
+set(CATALOG_LOCAL_CACHE ON)
 include("${CMAKE_CURRENT_SOURCE_DIR}/cl-bootstrap.cmake")
 cl_repo()
 
