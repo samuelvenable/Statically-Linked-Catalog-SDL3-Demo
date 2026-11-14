@@ -19,6 +19,7 @@ This will work cross-platform, even on platforms where statically linking is mor
 This needs to be added before `add_executable()` or `add_library()` in your `CMakeLists.txt`:
 
 ```cmake
+set(CATALOG_LOCAL_CACHE ON)
 include("${CMAKE_CURRENT_SOURCE_DIR}/cl-bootstrap.cmake")
 cl_repo()
 
